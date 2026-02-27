@@ -802,3 +802,34 @@ main div.form-wrapper {
 main .form form select[multiple] {
     height: calc(42px + 50px);
 }
+
+
+.field-footer-panel {
+    background-color: #292929;
+    text-align: center;
+}
+
+.field-footer-panel .field-footer p p {
+    color: white;
+}
+
+.field-header-panel {
+    background-color: #292929;
+}
+
+.field-header-panel .field-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.field-header-panel .field-logo img {
+    width: 140px; 
+    height: auto;
+}
+
+.field-header-panel .field-header-img img{
+    width: 120px;
+    height: auto;
+}
