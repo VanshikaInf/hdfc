@@ -833,3 +833,84 @@ main .form form select[multiple] {
     width: 120px;
     height: auto;
 }
+
+.field-salaried-help-text{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(245, 206, 133);
+    border-radius: 10px;
+    padding: 10px;
+    height: 70px;
+}
+
+.field-salaried-help-text p p {
+    font-size: 15px !important;
+    color: rgb(180, 120, 8) !important;
+    font-weight: 550 !important;
+}
+
+.field-selfemploy-help-text{
+   border-width: 3px;
+    border-style: solid;
+    border-color: rgb(245, 206, 133);
+    border-radius: 10px;
+    padding: 10px;
+    height: 70px;
+}
+
+.field-selfemploy-help-text p p {
+    font-size: 15px !important;
+    color: rgb(180, 120, 8) !important;
+    font-weight: 550 !important;
+}
+
+.field-welcome-text p p{
+    font-size:23px !important;
+    font-weight: 600px !important;
+    color: black !important;
+}
+
+.field-terms-condition .checkbox-wrapper label{
+    color: black;
+    font-size: 17px;
+}
+
+.field-income-source legend{
+    color:black !important;
+    font-weight: 500px !important;
+    font-size: 20px;
+}
+
+.field-income-source .radio-wrapper label{
+    color: black;
+    font-size: 17px !important;
+}
+
+.field-dob-group .radio-wrapper label{
+    color: black;
+}
+
+.field-loan-eligibility .button{
+    border-radius: 13px;
+}
+
+.field-confirm-text p p {
+    color: black;
+    font-size: 25px !important;
+}
+
+.field-form-submit-button1771951938336 .button{
+    border-radius: 13px;
+}
+
+.field-resend-otp p p {
+    margin-top: -26px !important;
+}
+
+.field-attempts-left p p {
+    margin-top: -26px !important;
+}
+
+.field-aadhar-mobile input{
+    margin-left: -25px !important; 
+}
