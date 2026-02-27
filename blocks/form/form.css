@@ -815,23 +815,27 @@ main .form form select[multiple] {
 
 .field-header-panel {
     background-color: #292929;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 20px; 
+    gap: 24px !important;
+    border: 0;
 }
 
-.field-header-panel .field-logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.field-header-panel .field-logo img {
-    width: 140px; 
+.field-header-panel .field-logo picture img{
+    width: 200px; 
     height: auto;
+    display: block;
+    max-width: 48%;
+    margin-left: 25px;
 }
 
-.field-header-panel .field-header-img img{
-    width: 120px;
+.field-header-panel .field-header-img picture img{
+    width: 160px;
     height: auto;
+    display: block;
+    max-width: 48%;
 }
 
 .field-salaried-help-text{
@@ -904,13 +908,67 @@ main .form form select[multiple] {
 }
 
 .field-resend-otp p p {
-    margin-top: -26px !important;
+    margin-top: -31px !important;
 }
 
 .field-attempts-left p p {
-    margin-top: -26px !important;
+    margin-top: -31px !important;
 }
 
 .field-aadhar-mobile input{
     margin-left: -25px !important; 
+}
+
+.field-loan-offer-title p h4{
+    font-size: 30px;
+    color: black;
+}
+
+.field-loan-offer-info p p {
+    background-color: #c8d6f0;
+}
+
+.field-avail-panel {
+    background-color: rgb(255, 242, 217);
+    border-radius: 10px;
+    margin-right: 5px !important;
+}
+
+.field-avail-panel .field-loan-summary-title p p strong{
+    font-size: 25px;
+}
+
+.field-avail-panel .field-loan-note{
+    background-color: rgb(255, 195, 83);
+    border-radius: 10px;
+    margin-left: -1px !important;
+    margin-right: 1px !important;
+    margin-bottom: 1px !important;
+}
+
+.field-avail-panel .field-loan-note p p {
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* .field-avail-panel .field-emi-amount input{    
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 20px !important; 
+    font-weight: 600;
+    pointer-events: none;
+} */
+
+.field-loan-panel{
+    margin-left: -5px !important ;
+}
+
+.field-proceed .button {
+    border-radius: 13px;
 }
