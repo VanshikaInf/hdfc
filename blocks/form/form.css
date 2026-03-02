@@ -1003,6 +1003,24 @@ main .form form select[multiple] {
   color: #0F172A;
 }
 
+.field-loan-panel .field-loan-range .range-widget-wrapper input,
+.field-loan-panel .field-loan-tenure .range-widget-wrapper input {
+    width: 100% !important;
+    height: 6px !important;
+    background: #f7a500 !important;
+}
+
+.field-loan-panel .field-loan-amount input,
+.field-loan-panel .field-loan-months input{
+    background-color: white !important;
+}
+
+
+.field-avail-panel .field-emi-amount input,
+.field-avail-panel .field-roi input{
+    background-color: #FFF2D9 !important;
+}
+
 .field-panel1771954949896 .field-avail-panel {
   background-color: #FFF2D9;
   border-radius: 16px;
@@ -1132,6 +1150,7 @@ width: 100%;
   line-height: 1.35;
 }
 
+
 /* .field-avail-panel .field-emi-amount input{    
     border: none !important;
     background: transparent !important;
@@ -1150,7 +1169,7 @@ width: 100%;
 .field-proceed .button {
     border-radius: 13px;
 }
-
+/* thankyou fragment */
 .field-thankyou-screen .field-kyc-documents-text {
     background-color: rgb(255, 242, 217);
     border-radius: 10px;
@@ -1171,6 +1190,49 @@ width: 100%;
     font-size: 15px !important;
     line-height: 1.4;
 }
+
+.field-panel1772298420166 .field-application-number-input input,
+.field-panel1772298420166 .field-loan-input input{
+    background-color: white !important;
+    margin: 0% !important;
+}
+
+.field-panel1772298420166 .field-loan-input {
+    position: relative !important;
+    padding-left: 12px !important;
+}
+
+.field-panel1772298420166 .field-loan-input::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 6px;
+    width: 4px;
+    background: #6a9be0;
+}
+
+.field-thankyou-screen .field-loan-text{
+    background-color: rgb(203, 233, 243);
+    border-radius: 10px;
+    margin: 10px !important;
+    height: 50px;
+}
+
+.field-thankyou-screen .field-loan-text p p{
+    color: #035fe6;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.field-panel1772298420166 .field-loan-input input{
+    border-style: none;
+    background-color:rgb(247, 249, 250);
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
 
 .field-panel1772298420166 {
     border-color: rgb(209, 209, 209) !important;
@@ -1256,7 +1318,7 @@ width: 100%;
 }
 
 .field-accordion1 .field-loan-details .field-loan-amount,
-.field-accordion1 .field-loan-details .field-emi-amount,
+.field-accordion1 .field-loan-details .field-emi-amount-final,
 .field-accordion1 .field-loan-details .field-tenure,
 .field-accordion1 .field-loan-details .field-processing-fee,
 .field-accordion1 .field-loan-details .field-rate-of-interest,
@@ -1274,7 +1336,7 @@ width: 100%;
 }
 
 .field-accordion1 .field-loan-details .field-loan-amount::before,
-.field-accordion1 .field-loan-details .field-emi-amount::before,
+.field-accordion1 .field-loan-details .field-emi-amount-final::before,
 .field-accordion1 .field-loan-details .field-tenure::before,
 .field-accordion1 .field-loan-details .field-processing-fee::before,
 .field-accordion1 .field-loan-details .field-rate-of-interest::before,
@@ -1297,7 +1359,7 @@ width: 100%;
 }
 
 .field-accordion1 .field-loan-details .field-loan-amount .field-label,
-.field-accordion1 .field-loan-details .field-emi-amount .field-label,
+.field-accordion1 .field-loan-details .field-emi-amount-final .field-label,
 .field-accordion1 .field-loan-details .field-tenure .field-label,
 .field-accordion1 .field-loan-details .field-processing-fee .field-label,
 .field-accordion1 .field-loan-details .field-rate-of-interest .field-label,
@@ -1318,7 +1380,7 @@ width: 100%;
 }
 
 .field-accordion1 .field-loan-details .field-loan-amount input,
-.field-accordion1 .field-loan-details .field-emi-amount input,
+.field-accordion1 .field-loan-details .field-emi-amount-final input,
 .field-accordion1 .field-loan-details .field-tenure input,
 .field-accordion1 .field-loan-details .field-processing-fee input,
 .field-accordion1 .field-loan-details .field-rate-of-interest input,
