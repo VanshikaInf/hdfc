@@ -44,3 +44,43 @@ function days(endDate, startDate) {
 
 // eslint-disable-next-line import/prefer-default-export
 export { getFullName, days, submitFormArrayToString };
+
+//custom functions
+function otpValidation(otp){
+  if(!otp){
+    return false;
+  }
+  if(otp.length == 6){
+    return true;
+  }
+  return false;
+}
+
+function phoneNumberValidation(phone){
+  if(!phone){
+    return false;
+  }
+  if(phone.length == 10){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+
+function mobileNumberMasking(mobileNumber){
+  if(!mobileNumber){
+    return '';
+  }
+  const value = mobileNumber.toString();
+  return ` ${'*'.repeat(5)}${value.substring(5)}`;
+}
+
+function panValidation(pan) {
+  if (pan == null) {
+    return false;
+  }
+  const number = String(pan).trim().toUpperCase();
+  const regex = /^[A-Z]{5}[0-9]{4}[A-Z]$/;
+  return regex.test(number);
+}
