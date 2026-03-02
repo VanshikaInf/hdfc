@@ -807,7 +807,7 @@ main .form form select[multiple] {
     height: calc(42px + 50px);
 }
 
-
+/* Footer fragment */
 .field-footer-panel {
     background-color: #292929;
     text-align: center;
@@ -817,8 +817,10 @@ main .form form select[multiple] {
     color: white;
 }
 
+/* Header fragment */
 .field-header-panel {
     background-color: #292929;
+    height: 65px;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -828,7 +830,7 @@ main .form form select[multiple] {
 }
 
 .field-header-panel .field-logo picture img {
-    width: 200px;
+    width: 300px !important;
     height: auto;
     display: block;
     max-width: 48%;
@@ -836,13 +838,15 @@ main .form form select[multiple] {
 }
 
 .field-header-panel .field-header-img picture img {
-    width: 160px;
+    width: 300px;
     height: auto;
     display: block;
     max-width: 48%;
 }
 
-.field-salaried-help-text {
+/* otp login fragment */
+.field-source-of-income-panel .field-salaried-help-text,
+.field-source-of-income-panel .field-selfemploy-help-text  {
     border-width: 3px;
     border-style: solid;
     border-color: rgb(245, 206, 133);
@@ -851,51 +855,57 @@ main .form form select[multiple] {
     height: 70px;
 }
 
-.field-salaried-help-text p p {
+.field-source-of-income-panel .field-salaried-help-text p p,
+.field-source-of-income-panel .field-selfemploy-help-text p p {
     font-size: 15px !important;
     color: rgb(180, 120, 8) !important;
     font-weight: 550 !important;
 }
 
-.field-selfemploy-help-text {
-    border-width: 3px;
-    border-style: solid;
-    border-color: rgb(245, 206, 133);
-    border-radius: 10px;
-    padding: 10px;
-    height: 70px;
-}
-
-.field-selfemploy-help-text p p {
-    font-size: 15px !important;
-    color: rgb(180, 120, 8) !important;
-    font-weight: 550 !important;
-}
-
-.field-welcome-text p p {
-    font-size: 23px !important;
-    font-weight: 600px !important;
-    color: black !important;
-}
-
-.field-terms-condition .checkbox-wrapper label {
-    color: black;
+.field-mobile-panel .field-plain-text1771952445706 p p{
+    margin-top: 0px !important;   
+    margin-bottom: 7px !important;  
     font-size: 17px;
+    color: #555;
 }
 
-.field-income-source legend {
+.field-mobile-panel .field-drop-down1771951645826,
+.field-mobile-panel .field-aadhar-mobile{
+    margin: 4px 7px 0 0 !important; 
+}
+
+.field-mobile-panel .field-wrapper.col-12 {
+    margin-bottom: 0px;
+}
+
+.field-personal-loan .field-welcome-text p p {
+    font-size: 23px !important;
+    font-weight: 600 !important;
     color: black !important;
-    font-weight: 500px !important;
-    font-size: 20px;
 }
 
-.field-income-source .radio-wrapper label {
-    color: black;
+.field-terms-condition .checkbox-wrapper .field-label {
+    color: rgb(90, 88, 88);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.field-source-of-income-panel .field-income-source legend {
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+}
+
+.field-source-of-income-panel .field-income-source .radio-wrapper label {
+    color: rgb(90, 88, 88);
+    font-size: 16px !important;
+    font-weight: 400;
+}
+
+.field-dob-panel .field-dob-group .radio-wrapper label {
+    color: rgb(90, 88, 88);
     font-size: 17px !important;
-}
-
-.field-dob-group .radio-wrapper label {
-    color: black;
+    font-weight: 400;
 }
 
 .field-loan-eligibility .button {
