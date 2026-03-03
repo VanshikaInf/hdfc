@@ -42,9 +42,6 @@ function days(endDate, startDate) {
   return Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 }
 
-// eslint-disable-next-line import/prefer-default-export
-export { getFullName, days, submitFormArrayToString };
-
 //custom functions
 function otpValidation(otp){
   if(!otp){
@@ -84,3 +81,6 @@ function panValidation(pan) {
   const regex = /^[A-Z]{5}[0-9]{4}[A-Z]$/;
   return regex.test(number);
 }
+
+// eslint-disable-next-line import/prefer-default-export
+export { getFullName, days, submitFormArrayToString, otpValidation, phoneNumberValidation, mobileNumberMasking, panValidation };
